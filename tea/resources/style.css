@@ -1,0 +1,185 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0 auto;
+}
+
+header {
+  border-bottom: 1px solid seashell;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  background-color: black;
+  flex-wrap: wrap;
+  top: 0px;
+  width: 100%;
+}
+
+header img {
+  margin-left: 10px;
+  height: 50px;
+}
+
+.nav-container ul {
+  display: flex;
+}
+
+.nav-container li {
+  list-style-type: none;
+  padding: 20px;
+}
+
+.nav-container a {
+  color: seashell;
+}
+
+.mission {
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mission-text {
+  background-color: black;
+  width: 1200px;
+}
+
+.tea-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tea-text h4 {
+  padding: 10px;
+}
+
+.tea-container img {
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.tea-1 {
+  padding: 5px;
+}
+
+.tea-1 p {
+  margin-top: 10px;
+}
+
+.tea-1 img {
+  height: 200px;
+  width: 300px;
+  order: 1;
+}
+
+.tea-2 {
+  padding: 5px;
+}
+
+.tea-2 p {
+  margin-top: 10px;
+}
+
+.tea-2 img {
+  height: 200px;
+  width: 300px;
+  order: 2;
+}
+
+.tea-3 {
+  padding: 5px;
+}
+
+.tea-3 p {
+  margin-top: 10px;
+}
+
+.tea-3 img {
+  height: 200px;
+  width: 300px;
+  order: 3;
+}
+
+.tea-4 {
+  padding: 5px;
+}
+
+.tea-4 p {
+  margin-top: 10px;
+}
+
+.tea-4 img {
+  height: 200px;
+  width: 300px;
+  order: 4;
+}
+
+.tea-5 {
+  padding: 5px;
+}
+
+.tea-5 p {
+  margin-top: 10px;
+}
+
+.tea-5 img {
+  height: 200px;
+  width: 300px;
+  order: 5;
+}
+
+#locations {
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+
+.locations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.locations h2 {
+  color: green;
+}
+
+.downtown {
+  background-color: black;
+  width: 300px;
+}
+
+.east {
+  background-color: black;
+  width: 300px;
+  margin: 0 40px;
+}
+
+.oakdale {
+  background-color: black;
+  width: 300px;
+}
+
+footer {
+  height: 200px;
+}
+
+footer .copy {
+  text-align: left;
+  margin-left: 20px;
+}
